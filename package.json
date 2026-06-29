@@ -1,0 +1,21 @@
+{
+  "name": "agent-desktop-applications",
+  "version": "0.0.1",
+  "description": "Desktop application automation CLI for AI agents",
+  "main": "bin/agent-app.js",
+  "type": "module",
+  "bin": {
+    "agent-app": "bin/agent-app.js"
+  },
+  "scripts": {
+    "build:native": "cd native && cargo build --release"
+  },
+  "keywords": ["agent", "desktop", "automation", "cli", "ai"],
+  "author": "",
+  "license": "GPL-3.0-only",
+  "files": ["bin", "native"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/agent-desktop-applications.git"
+  }
+}
